@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "919619897772",
+    "firebase_url": "https://clprofile.firebaseio.com",
+    "project_id": "clprofile",
+    "storage_bucket": "clprofile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919619897772:android:656b8ba2e13be42ded9209",
+        "android_client_info": {
+          "package_name": "com.example.clprofile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919619897772-6f4u2eidlek14gm1f29n93ggg971bkh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApDqIlKKxOoymgZzUxToXAuLCLKiGyZ_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919619897772-6f4u2eidlek14gm1f29n93ggg971bkh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
