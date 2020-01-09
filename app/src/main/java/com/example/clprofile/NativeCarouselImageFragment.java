@@ -118,4 +118,10 @@ public class NativeCarouselImageFragment extends NativeBaseFragment {
             }
         });
     }
+
+    @Override
+    protected void didClick(int position, Object o) {
+        CleverTapAPI.getDefaultInstance(getContext().getApplicationContext())
+                .pushDisplayUnitClickedEventForID(cleverTapDisplayUnit.getUnitID());
+    }
 }

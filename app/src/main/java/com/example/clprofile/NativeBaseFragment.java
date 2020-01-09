@@ -314,12 +314,16 @@ public class NativeBaseFragment extends Fragment {
 
     void handleViewPagerClick(int position) {
         try {
-            //TO DO: didClick(data, position, null);
+            didClick(position, null);
             String actionUrl = cleverTapDisplayUnit.getContents().get(position).getActionUrl();
             Utils.fireUrlThroughIntent(getContext(), actionUrl);
         } catch (Throwable t) {
             Logger.d("Error handling notification button click: " + t.getCause());
         }
+    }
+
+    protected void didClick(int position, Object o) {
+
     }
 
     protected void fireUrlThroughIntent(String actionUrl) {
